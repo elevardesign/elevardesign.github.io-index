@@ -564,7 +564,7 @@ form,
   left: 0;
   right: 0;
   bottom: 0;
-  background: #121619;
+  background: #ffffff;
   z-index: 800;
   height: 100vh;
   width: 100%;
@@ -591,7 +591,7 @@ form,
 
 #loader > div {
   content: "";
-  background: #5b4f96;
+  background: #3360CD;
   width: 6px;
   height: 6px;
   position: absolute;
@@ -4052,7 +4052,7 @@ img.step-img{
 .go-top a:hover,
 .go-top a:focus,
 .go-top a:active {
-  background-color: #75A7FF;
+  background-color: #3360CD;
 }
 
 .go-top.link-is-visible {
@@ -4207,6 +4207,10 @@ div.c-label label{
   color: #41474E !important;
 }
 
+.cognito .c-field.c-required .c-label:after, .cognito .c-rating-scale.c-required .c-choice-question:after {
+  color: #3360CD !important;
+}
+
 div.Ougy5cv0T0iKrMAgq6uJmQ{
   display: none !important;
 }
@@ -4225,7 +4229,10 @@ div.c-action button{
   border: none !important;
   font-family: "Cerebri Bold", sans-serif !important;
   letter-spacing: normal !important;
-  margin-top: 20px auto !important;
+}
+
+div.c-button-section{
+  margin-top: 30px !important;
 }
 
 div.c-action button:hover{
